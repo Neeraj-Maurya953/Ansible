@@ -1,0 +1,13 @@
+---
+- name: To test the varibale
+  hosts: Web
+  vars_files:
+    - server.yml
+  tasks:
+    - name: Create user
+      user:
+        name: "{{ users }}"
+        home: "{{ home_dir }}"
+        shell: /bin/bash
+        state: present  
+        password: "{{ passwd }}"
