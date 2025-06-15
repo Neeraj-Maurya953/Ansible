@@ -1,2 +1,2 @@
-# Variabl in Ansible
-# Variable ins Ansible
+# Variable in Ansible
+
