@@ -4,7 +4,7 @@
   vars_files:
     - server.yml
   tasks:
-    - name: Create user
+    - name: Create user for Neeraj
       user:
         name: "{{ users }}"
         home: "{{ home_dir }}"
